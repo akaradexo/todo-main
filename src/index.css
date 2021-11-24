@@ -1,8 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+:root {
+/* Primary */
+--clr-Bright-Blue: hsl(220, 98%, 61%);
+--clr-Check-Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+ /* Neutral */
+
+ /* Light Theme */
+--clr-Very-Light-Gray: hsl(0, 0%, 98%);
+--clr-Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+--clr-Light-Grayish-Blue: hsl(233, 11%, 84%);
+--clr-Dark-Grayish-Blue: hsl(236, 9%, 61%);
+--clr-Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+
+ /* Dark Theme */
+ --clr-Very-Dark-Blue: hsl(235, 21%, 11%);
+ --clr-Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+ --clr-Light-Grayish-Blue: hsl(234, 39%, 85%);
+ /* (hover) */
+--clr-Light-Grayish-Blue : hsl(236, 33%, 92%);
+--clr-Dark-Grayish-Blue: hsl(234, 11%, 52%);
+--clr-Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+--clr-Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+
+}
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
